@@ -1,0 +1,49 @@
+Started from 22.10.26
+
+* 링크 거는 방식으로 다른 페이지 이동까지는 가능할 듯
+
+
+I Am
+How I Draw Myself
+- Profile (Lisa is my Christian name😏)
+- Personality
+- Friends Testimonials (like movie reviews)
+마지막에 추가 (I can speak 한국어, 日本語, English! You can see this page in Korean or Japanese 👈click!)
+
+
+
+I Do
+Some Things I Like To Do
+- Listening to rock music from the 90s
+- Watching movies
+- Traveling and taking pictures
+
+
+
+I Learn
+New Things I Am Recently Figuring Out
+- Drum
+- Foreign Languages
+- Programming (omnifood webpage)
+카드형으로 만들기
+사진 대신 아이콘
+tag 넣어서 꾸밈 챙기기
+마우스 대면 위로 올라가게 transition
+
+
+
+
+I Love
+You Can Also Visit My Friends' Pages (that I made for them!)
+- The Wild One: ***
+- The Cute One: ***
+- Sorry! Work In Process!
+
+
+방명록 input form
+
+
+You can also find me on
+- Instagram
+- Twitter (gray logo?)
+- Blog (gray logo?)

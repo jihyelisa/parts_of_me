@@ -1,0 +1,140 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Midium: 500
+Bold: 700
+nav: 800
+
+- Line heights
+Default: 1
+Small: 1.05
+Midium: 1.2
+Large: 1.8
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #439594
+- Tints: #d9eaea #ecf4f4
+- Shades: #32706f
+- Accents:
+- Opposite : #bc6a6b
+
+- Primary: #f7ecde
+- Tints: #faf4eb #fcf7f2
+- Shades: #948e85 #ded4c8
+- Accents:
+
+- Greys
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#555
+#333
+
+
+--- 05 SHADOWS
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
+--- 06 BORDER_RADIUS
+
+Default: 5px
+Medium: 10px
+
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 112 / 128 / 144 / 176 / 224
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 10px / 16px = 0.625 = 62.5%
+  Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    /* overflow-x: hidden; */
+
+    /* Does NOT work on Safari */
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #555;
+
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+}
+
+/****************************/
+
+.container {
+    margin: 9.6rem 12.8rem 9.6rem 12.8rem;
+    margin-top: 0;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.2rem;
+    margin: 0 12.8rem 3.2rem 12.8rem;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 9.6rem;
+}
+
+.heading-secondary {
+    font-family: "Playfair Display", serif;
+
+    font-size: 9.8rem;
+}
+
+.section-title span {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #439594;
+
+    /* border-radius: 20px; */
+    /* background-color: #d9eaea;
+  padding: 1.2rem 1.6rem 1.2rem 1.6rem; */
+}
+
+.section-title span:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.heading-tertiary {
+    font-size: 2.2rem;
+    margin-bottom: 2.4rem;
+    color: #32706f;
+    text-transform: uppercase;
+}
+
+.margin-bottom-64 {
+    margin-bottom: 6.4rem;
+}
